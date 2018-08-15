@@ -19,7 +19,6 @@ Este repositório projeto de avaliação da ferramenta **ADB - Android Debug Bri
 
 ```image-file
 ./doc/DeployDiagram*.jpg
-../../bancodemassa-doc/*
 ```
 ![DeployDiagram](https://github.com/josemarsilva/eval-adb/blob/master/doc/images/DeployDiagram-01.png) 
 
