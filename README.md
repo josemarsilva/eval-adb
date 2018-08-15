@@ -239,9 +239,9 @@ E/NetlinkEvent(  285): NetlinkEvent::decode(): buffer'change@/devices/platform/b
 ```
 
 
-#### 3.4.6. Extrair um Dump do sistema
+#### 3.4.6. Extrair um Dump do sistema do device
 
-* passo 1: Extrair um Dump do sistema
+* passo 1: Extrair um Dump do sistema do device
 ```adb
 C:\My Git\workspace-github\eval-adb\src>adb shell dumpsys 
 Currently running services:
@@ -259,6 +259,30 @@ Currently running services:
   alarm
   android.apps.ILGPService
   android.security.key
+```
+
+#### 3.4.7. Extrair 
+
+* passo 1: Extrair 
+```adb
+C:\Users\Josemarsilva>adb shell dumpsys display
+DISPLAY MANAGER (dumpsys display)
+  mOnlyCode=false
+  mSafeMode=false
+  mPendingTraversal=false
+  mGlobalDisplayState=ON
+  mNextNonDefaultDisplayId=1
+  mDefaultViewport=DisplayViewport{valid=true, displayId=0, orientation=0, logicalFrame=Rect(0, 0 - 480, 854), physicalFrame=Rect(0, 0 - 480, 854), deviceWidth=480, deviceHeight=854}
+  mExternalTouchViewport=DisplayViewport{valid=false, displayId=0, orientation=0, logicalFrame=Rect(0, 0 - 0, 0), physicalFrame=Rect(0, 0 - 0, 0), deviceWidth=0, deviceHeight=0}
+  mSingleDisplayDemoMode=false
+  mWifiDisplayScanRequestCount=0
+
+Display Adapters: size=3
+  LocalDisplayAdapter
+  OverlayDisplayAdapter
+    mCurrentOverlaySetting=
+    mOverlays: size=0
+  VirtualDisplayAdapter
 ```
 
 
