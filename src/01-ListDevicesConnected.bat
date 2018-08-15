@@ -1,1 +1,2 @@
-a
+adb devices
+adb devices -l

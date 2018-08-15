@@ -247,3 +247,4 @@ C:\My Git\workspace-github\eval-adb\src>adb shell input tap 240 425
   * http://apkinstaller.com/downloads/
 * Comandos
   * https://developer.zebra.com/community/home/blog/2015/03/09/introduction-to-adb-shell-commands
+  * [KeyCode list](https://stackoverflow.com/questions/7789826/adb-shell-input-events)
