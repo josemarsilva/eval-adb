@@ -3,7 +3,6 @@ Evaluation Android Debug Bridge
 
 # README #
 
-
 ## 1. Introdução ##
 
 Este repositório projeto de avaliação da ferramenta **ADB - Android Debug Bridge**. 
@@ -223,6 +222,43 @@ C:\My Git\workspace-github\eval-adb\src>adb shell input tap 240 425
 C:\My Git\workspace-github\eval-adb\src>adb shell input tap 240 750
 C:\My Git\workspace-github\eval-adb\src>adb shell input text kkk
 C:\My Git\workspace-github\eval-adb\src>adb shell input tap 240 425
+```
+
+
+#### 3.4.5. Capturar o log do device 
+
+* passo 1: Capturar log do device
+```adb
+C:\My Git\workspace-github\eval-adb\src>adb shell logcat
+--------- beginning of system
+V/NetworkPolicy(  869): [VT_INTENT_PROC] updateNotificationsLocked() : under warning
+I/thermal_repeater(  311): oh, queryMdThermalInfo (0)Success
+I/thermal_repeater(  311): [recvMdThermalInfo] ret=27, strLen=127,  3, 32, -127, -1, 32767, 18
+E/NetlinkListener(  285): onDataAvailable socket:4,buffer'change@/devices/platform/battery/power_supply/battery' size:941,format:0
+E/NetlinkEvent(  285): NetlinkEvent::decode(): buffer'change@/devices/platform/battery/power_supply/battery' size:941,format:0
+```
+
+
+#### 3.4.6. Extrair um Dump do sistema
+
+* passo 1: Extrair um Dump do sistema
+```adb
+C:\My Git\workspace-github\eval-adb\src>adb shell dumpsys 
+Currently running services:
+  CCModeService
+  DockObserver
+  GuiExtService
+  Jphone
+  NvRAMAgent
+  PPLAgent
+  SurfaceFlinger
+  UniversalMusicPlayer
+  accessibility
+  account
+  activity
+  alarm
+  android.apps.ILGPService
+  android.security.key
 ```
 
 
