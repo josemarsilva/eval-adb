@@ -146,9 +146,9 @@ C:\My Git\workspace-github\eval-adb\src>adb shell input keyevent "KEYCODE_HOME"
 
 #### 3.4.6. Monitorar as atividades pelo application manager
 
-* passo 1: Consulte o help do "am (Application Manager)"
+* passo 1: Consulte o help do "am (Activity Manager)"
 ```adb
-C:\My Git\workspace-github\eval-adb\src>
+C:\My Git\workspace-github\eval-adb\src>adb shell am
 usage: am [subcommand] [options]
 usage: am start [-D] [-W] [-P <FILE>] [--start-profiler <FILE>]
                [--sampling INTERVAL] [-R COUNT] [-S] [--opengl-trace]
