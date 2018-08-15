@@ -12,11 +12,7 @@ Este repositório projeto de avaliação da ferramenta **ADB - Android Debug Bri
 
 ### 2.1. Diagrama de Caso de Uso (Use Case Diagram) ###
 
-```image-file
-./doc/UseCaseDiagram*.jpg
-../../bancodemassa-doc/*
-```
-![UseCaseDiagram](https://github.com/josemarsilva/eval-adb/blob/master/doc/images/UseCaseDiagram-01.png) 
+![UseCaseDiagram](https://github.com/josemarsilva/eval-adb/blob/master/doc/UseCaseDiagram-01.png) 
 
 
 ### 2.2. Diagrama de Implantação (Deploy Diagram) ###
