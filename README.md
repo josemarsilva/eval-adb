@@ -188,7 +188,7 @@ usage: am start [-D] [-W] [-P <FILE>] [--start-profiler <FILE>]
        am get-config
 ```
 
-* passo 2: Monitorar as atividades das aplicações usando o "am (Application Manager)". No dispositivo, inicie manualmente a aplicação da câmera ou outra aplicação qualquer e observe o monitoramento das atividades desta aplicação. Em seguida feche todas as aplicações para o próximo passo.
+* passo 2: Monitorar as atividades das aplicações usando o "am (Activity Manager)". No dispositivo, inicie manualmente a aplicação da câmera ou outra aplicação qualquer e observe o monitoramento das atividades desta aplicação. Em seguida feche todas as aplicações para o próximo passo.
 ```adb
 C:\My Git\workspace-github\eval-adb\src>adb shell am start com.lge.camera
 Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] pkg=com.lge.camera }
@@ -199,19 +199,19 @@ Monitoring activity manager...  available commands:
 q
 ```
 
-* passo 3: Iniciar pelo adb a aplicação de câmera usando o "am (Application Manager)".
+* passo 3: Iniciar pelo adb a aplicação de câmera usando o "am (Activity Manager)".
 ```adb
 C:\My Git\workspace-github\eval-adb\src>adb shell am start com.lge.camera
 Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] pkg=com.lge.camera }
 ```
 
-* passo 4: Iniciar pelo adb a aplicação Chrome Browser usando o "am (Application Manager)".
+* passo 4: Iniciar pelo adb a aplicação Chrome Browser usando o "am (Activity Manager)".
 ```adb
 C:\My Git\workspace-github\eval-adb\src>adb shell am start com.android.chrome
 Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] pkg=com.android.chrome }
 ```
 
-* passo 5: Iniciar pelo adb a aplicação Whatsapp usando o "am (Application Manager)".
+* passo 5: Iniciar pelo adb a aplicação Whatsapp usando o "am (Activity Manager)".
 ```adb
 C:\My Git\workspace-github\eval-adb\src>adb shell am start com.whatsapp
 Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] pkg=com.whatsapp }
