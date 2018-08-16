@@ -1,0 +1,1 @@
+adb shell dumpsys window windows | find "mCurrentFocus"
