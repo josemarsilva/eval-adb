@@ -47,7 +47,7 @@ Este repositório projeto de avaliação da ferramenta **ADB - Android Debug Bri
 
 #### 3.4.1. Identificando o dispositivo conectado (pelo cabo USB)
 
-* [01-ListDevicesConnected.bat](01-ListDevicesConnected.bat)
+* [01-ListDevicesConnected.bat](./src/01-ListDevicesConnected.bat)
 * [02-EnterDeviceShellCommandLine.bat](02-EnterDeviceShellCommandLine.bat)
 * [03-GetDeviceProperties.bat](03-GetDeviceProperties.bat)
 * [04-KeyEventsToDevice.bat](04-KeyEventsToDevice.bat)
